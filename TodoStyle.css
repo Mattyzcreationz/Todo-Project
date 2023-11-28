@@ -1,0 +1,57 @@
+              body {
+                  font-family: Arial, sans-serif;
+                  background-color: #f4f4f4;
+                  margin: 0;
+                  padding: 20px;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: black;
+              }
+
+              .container {
+                  max-width: 600px;
+                  margin: 0 auto;
+                  background: #fff;
+                  padding: 20px;
+                  border-radius: 5px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+
+              h1 {
+                  color: #333;
+                  text-align: center;
+              }
+
+              .task-item {
+                  display: flex;
+                  align-items: center;
+                  padding: 8px;
+                  margin-bottom: 8px;
+                  background: #f9f9f9;
+                  border-radius: 3px;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+              }
+
+              .task-item input[type="checkbox"] {
+                  margin-right: 10px;
+              }
+
+              .task-item label {
+                  flex: 1;
+                  cursor: pointer;
+              }
+
+              .data {
+                  list-style: none;
+                  padding: 0;
+              }
+
+              .data li {
+                  display: inline-block;
+                  margin-right: 10px;
+              }
+
+              .TodoAmount h1 {
+                  display: inline-block;
+                  margin-right: 10px;
+              }
